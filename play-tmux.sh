@@ -10,7 +10,7 @@ tmux select-layout tiled
 for sound in $sounds
 do
     paused="--pause"
-    [[ $(echo $toPlay | grep -w $sound) ]] && $paused=""
+    [[ $(echo $toPlay | grep -w $sound) ]] && paused=""
     tmux send-keys "mpv $paused --loop=inf files/$sound/$sound.m3u8" C-m
     echo $count, $soundCount, $sound
     tmux select-layout tiled
