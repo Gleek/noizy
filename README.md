@@ -7,8 +7,12 @@ mpv
 tmux
 
 ### Running
-Run ./download.sh to get files from noisli
-Run ./play-tmux.sh [sounds] to open panels with sounds playing
+- Run `./download.sh` to get files from noisli
+- Run `./play-tmux.sh` [sounds] to open panels with sounds playing
+- Alternatively run `./play.sh` [sounds] to just play the sounds without panel(tmux)
+
+#### Example usage
+`./play.sh thunderstorm bonfire`
 
 ## Sounds
 - rain
@@ -23,3 +27,4 @@ Run ./play-tmux.sh [sounds] to open panels with sounds playing
 - waterstream
 - water
 - summernight
+
