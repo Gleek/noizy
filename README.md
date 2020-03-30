@@ -12,7 +12,7 @@ tmux
 - Alternatively run `./play.sh` [sounds] to just play the sounds without panel(tmux)
 
 #### Example usage
-`./play.sh thunderstorm bonfire`
+`./play-tmux.sh thunderstorm bonfire`
 
 Opens a panel with all sounds with `thunderstorm` and `bonfire` sounds playing
 
