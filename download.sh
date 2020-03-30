@@ -11,7 +11,11 @@ train
 leaves
 waterstream
 water
-summernight"
+summernight
+whitenoise
+fan
+pinknoise
+brownnoise"
 
 
 mkdir -p files
